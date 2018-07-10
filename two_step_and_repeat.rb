@@ -13,15 +13,17 @@ end
 
 def a_few_more_steps
    loop do
-puts "Right foot back"
+puts "Right foot steps right and back"
 sleep(0.5)
-puts "Left foot back"
+puts "Left foot crosses over right"
 sleep(0.5)
-puts "Right foot back"
+puts "Right foot steps right"
 sleep(0.5)
 puts "Right foot steps right and back"
-puts "Stop"
-sleep(1)
+ sleep(0.5)
+ puts "Turn"
+ sleep(1)
+ break
  end
 end
 
