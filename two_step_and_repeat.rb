@@ -19,6 +19,7 @@ puts "Left foot back"
 sleep(0.5)
 puts "Right foot back"
 sleep(0.5)
+puts "Right foot steps right and back"
 puts "Stop"
 sleep(1)
  end
